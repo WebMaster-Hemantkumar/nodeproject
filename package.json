@@ -22,11 +22,11 @@
     "passport-http": "*",
     "passport-local": "*",
     "request": "^2.88.0"
-  },
+  }, 
   "devDependencies": {},
   "scripts": {
-    "starts":"node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node server.js"
+    
   },
   "author": "",
   "license": "ISC"

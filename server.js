@@ -25,7 +25,7 @@ var routes= require('./routes/users');
 
 
 var app = express();
-
+ const port = process.env.PORT || 3000
 
 //View Engine
 app.set('views', path.join(__dirname, 'views'));
@@ -160,6 +160,6 @@ app.get('/hospitality-management', (req, res) => {
 
 
 
-app.listen(3000,(req,res)=>{
-console.log('server runging on port no 3000')
+app.listen(port,(req,res)=>{
+console.log('server runging on port no '+port)
 })
